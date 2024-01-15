@@ -1,0 +1,9 @@
+.top {
+    height: 50vh;
+    background-color: lightblue; /
+}
+
+.bot {
+    height: 50vh; 
+    background-color: lightgreen; 
+}
