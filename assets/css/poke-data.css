@@ -1,9 +1,55 @@
 .top {
-    height: 50vh;
-    background-color: lightblue; /
+  height: 50vh;
+  background-color: lightblue;
+  border-radius: 50px;
 }
 
 .bot {
-    height: 50vh; 
-    background-color: lightgreen; 
+  height: 50vh;
+  background-color: lightgreen;
+  border-radius: 50px;
+}
+
+.nome {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+#nome {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.numero {
+  margin-top: 2px;
+  margin-left: 335px;
+}
+
+#numero {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.voltar {
+  border: none;
+  background: none;
+  margin-left: 20px;
+  margin-top: 40px;
+  height: 40px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.Like {
+  border: none;
+  background: none;
+  margin-top: 40px;
+  margin-left: 265px;
+  height: 40px;
+  width: 50px;
+  border-radius: 5px;
 }
