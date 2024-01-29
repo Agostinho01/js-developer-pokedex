@@ -57,12 +57,8 @@ if (page === "principal") {
   function evento() {
     let elementsArray = document.querySelectorAll("#pokemon-geral");
 
-    console.log("Antes do Loop");
     elementsArray.forEach(function (elem) {
-      console.log("Dentro do Loop");
       elem.addEventListener("click", () => {
-        console.log("clicado");
-
         numero = elem.children[0].textContent;
         nome = elem.children[1].textContent;
         imagem = elem.children[2].children[1].getAttribute("src");
@@ -153,25 +149,3 @@ function removeALL() {
     child.remove();
   }
 }
-
-/*
-console.log("Funcionando");
-let elementsArray = document.querySelectorAll("#pokemon-geral");
-console.log(typeof elementsArray);
-
-console.log("Antes do Loop");
-elementsArray.forEach(function (elem) {
-  console.log("Dentro do Loop");
-  elem.addEventListener("click", () => {
-    console.log("clicado");
-  });
-
-  elem.addEventListener("mouseover", () => {
-    elem.style.background = "cyan";
-  });
-
-  elem.addEventListener("mouseout", () => {
-    elem.style.background = "white";
-  });
-});
-*/
